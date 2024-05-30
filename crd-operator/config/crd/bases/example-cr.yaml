@@ -1,0 +1,6 @@
+apiVersion: random.example.com/v1beta1
+kind: Random
+metadata:
+  name: example-random
+spec:
+  foo: "example value"

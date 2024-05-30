@@ -1,0 +1,9 @@
+apiVersion: random.example.com/v1beta1
+kind: Random
+metadata:
+  labels:
+    app.kubernetes.io/name: crd-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: random-sample
+spec:
+  # TODO(user): Add fields here
